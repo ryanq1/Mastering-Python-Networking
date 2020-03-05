@@ -1,0 +1,15 @@
+
+import requests
+import json
+import urllib
+from urllib.request import urlopen
+names = []
+apis = "Latest CVE is"
+url = urlopen("https://cve.circl.lu/api/last")
+data = url.json()
+for artist in data["summary"]:
+	name = artist["summary"]
+#print url1
+pri#response = json.loads(url)
+#print '"summary":', result['summary']
+
