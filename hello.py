@@ -10,4 +10,4 @@ if __name__ == "__main__":
 	print '"Latest CVE is\n"', result[1]["summary"].format()
 
 
-# test
+
