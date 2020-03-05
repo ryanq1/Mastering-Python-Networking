@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}//flask arguments
+	<h1>Python bnuiltins dostrings</h1>
+	<div>
+	{% for func in funcs %}
+		<div class="menuitem link">
+			<a hef="/functions/{{ func }}">{{ func }}</a>
+		{% endfor %}
+		</table>
+	{% endblock %}
+
